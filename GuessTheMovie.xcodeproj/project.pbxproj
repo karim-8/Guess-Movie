@@ -15,6 +15,9 @@
 		03A78CCE265E6D120096CF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A78CCC265E6D120096CF58 /* LaunchScreen.storyboard */; };
 		03A78CD9265E6D120096CF58 /* GuessTheMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A78CD8265E6D120096CF58 /* GuessTheMovieTests.swift */; };
 		03A78CE4265E6D120096CF58 /* GuessTheMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A78CE3265E6D120096CF58 /* GuessTheMovieUITests.swift */; };
+		8A97E0822715D14700EF034F /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97E0812715D14700EF034F /* MoviesViewModel.swift */; };
+		8A97E0832715D2CF00EF034F /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A78CF5265E6D840096CF58 /* NetworkClient.swift */; };
+		8A97E0842715D2E000EF034F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A78CF7265E6D950096CF58 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		03A78CE5265E6D120096CF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A78CF5265E6D840096CF58 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		03A78CF7265E6D950096CF58 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8A97E0812715D14700EF034F /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				03A78CF6265E6D950096CF58 /* Models */,
 				03A78CF4265E6D840096CF58 /* NetworkService */,
 				03A78CC5265E6D100096CF58 /* ViewController.swift */,
+				8A97E0812715D14700EF034F /* MoviesViewModel.swift */,
 				03A78CC7265E6D100096CF58 /* Main.storyboard */,
 				03A78CCA265E6D120096CF58 /* Assets.xcassets */,
 				03A78CCC265E6D120096CF58 /* LaunchScreen.storyboard */,
@@ -279,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A78CC6265E6D100096CF58 /* ViewController.swift in Sources */,
+				8A97E0832715D2CF00EF034F /* NetworkClient.swift in Sources */,
+				8A97E0842715D2E000EF034F /* Movie.swift in Sources */,
 				03A78CC2265E6D100096CF58 /* AppDelegate.swift in Sources */,
 				03A78CC4265E6D100096CF58 /* SceneDelegate.swift in Sources */,
+				8A97E0822715D14700EF034F /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
